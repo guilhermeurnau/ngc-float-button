@@ -1,14 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist/bundles
-/dist/components
-/dist/index.js
-/dist/index.d.ts
-/dist/index.js.map
-/dist/index.metadata.json
-/dist/index.ngsummary.json
-/dist/node_modules
 /tmp
 /components/*.ngfactory.ts
 /components/*.ngsummary.json
