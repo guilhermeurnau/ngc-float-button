@@ -28,11 +28,11 @@ import {
     justify-content: flex-end;
     align-items: center;
   }
-  
+
   .item.disabled {
     pointer-events: none;
   }
-  
+
   .item.disabled .fab-item {
     background-color: lightgray;
   }
@@ -42,7 +42,6 @@ import {
     margin-right: 50px;
     line-height: 25px;
     color: white;
-    text-transform: lowercase;
     padding: 2px 7px;
     border-radius: 3px;
     display: none;
@@ -69,7 +68,7 @@ import {
 
   `],
   template: `
-    <div #elementref class="item {{ disabled ? 'disabled' : ''}}" 
+    <div #elementref class="item {{ disabled ? 'disabled' : ''}}"
     (click)="emitClickEvent($event)">
         <div class="content-wrapper" #contentref>
           <div class="content" [style.display]="content ? 'block' : 'none'">{{content}}</div>
