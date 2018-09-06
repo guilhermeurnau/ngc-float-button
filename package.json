@@ -41,5 +41,16 @@
     "typescript": "^2.7.1",
     "uglify-js": "^3.3.9",
     "zone.js": "^0.6.23"
-  }
+  },
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermeurnau/ngc-float-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guilhermeurnau/ngc-float-button/issues"
+  },
+  "homepage": "https://github.com/guilhermeurnau/ngc-float-button#readme"
 }
